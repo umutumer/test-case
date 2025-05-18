@@ -1,0 +1,26 @@
+.card-container {
+  width: 250px;
+  margin: 20px;
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    height: 36px;
+  }
+  .category-rating {
+    margin-bottom: 10px;
+    .category-rating-text {
+      display: flex;
+      align-items: center;
+      .category-text{
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      .star-icon {
+        color: #f39c12;
+       font-size: large;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 75px;
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    & span {
+      color: #007bff;
+    }
+  }
+}
